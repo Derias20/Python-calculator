@@ -4,7 +4,7 @@ from secrets import choice
 
 def add(a, b):
     return a + b 
-def subsract(a, b):
+def substract(a, b):
     return a - b
 def divide(a,b):
     return a / b
@@ -22,7 +22,7 @@ choice = str(input(""))
 if choice == "1":
     print(add(a,b))
 elif choice == "2":
-    print(subsract(a,b))
+    print(substract(a,b))
 elif choice == "3":
     print(divide(a,b))
 elif choice == "4":
